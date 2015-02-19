@@ -1,0 +1,13 @@
+{
+   "craftable_recipes" : {
+      "tear_down" : {
+         "ordinal" : 5,
+         "name" : "Tear Down",
+         "recipes" : {
+            "oak_log" : {
+               "recipe" : "file(/recipes/oak_log_recipe.json)"
+            }
+         }
+      }
+   }
+}

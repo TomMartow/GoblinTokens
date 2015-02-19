@@ -1,0 +1,21 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Oak Log",
+   "description" : "Use your tokens here.",
+   "flavor"      : "",
+   "portrait"    : "/goblintokens/mixins/woodthread.png", 
+   "ingredients": [
+		{
+			"uri" : "stonehearth:monsters:goblins:skull_trophy",
+			"count" : 6
+		}
+	],
+  "produces": [
+      {
+         "item":"stonehearth:resources:wood:oak_log",
+		 "item":"stonehearth:refined:thread"
+      }
+  ]
+}

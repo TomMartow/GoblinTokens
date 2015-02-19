@@ -1,0 +1,11 @@
+{
+    "info": {
+        "name": "Goblin Token",
+        "version": 1
+    },
+    "mixintos": {
+        "/stonehearth/jobs/carpenter/recipes/recipes.json": [
+            "file(mixins/carpenter_recipes.json)"
+        ]
+    }
+}
