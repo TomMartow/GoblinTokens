@@ -14,8 +14,10 @@
 	],
   "produces": [
       {
-         "item":"stonehearth:resources:wood:oak_log",
 		 "item":"stonehearth:refined:thread"
+      },
+      {
+         "item":"stonehearth:resources:wood:oak_log"
       }
   ]
 }
