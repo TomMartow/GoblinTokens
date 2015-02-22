@@ -1,10 +1,10 @@
 {
    "craftable_recipes" : {
-      "tear_down" : {
-         "ordinal" : 5,
-         "name" : "Tear Down",
+      "tools_weapons" : {
+         "ordinal" : 1,
+         "name" : "Tools & Weapons",
          "recipes" : {
-            "oak_log" : {
+            "Goblin Token Tear Down" : {
                "recipe" : "file(/recipes/oak_log_recipe.json)"
             }
          }

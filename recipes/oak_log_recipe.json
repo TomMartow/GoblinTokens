@@ -1,23 +1,23 @@
 {
-   "type":"recipe",
-
-   "work_units"  : 2,
-   "recipe_name" : "Oak Log",
-   "description" : "Use your tokens here.",
-   "flavor"      : "",
-   "portrait"    : "/goblintokens/mixins/woodthread.png", 
-   "ingredients": [
-		{
-			"uri" : "stonehearth:monsters:goblins:skull_trophy",
-			"count" : 6
-		}
-	],
-  "produces": [
-      {
-		 "item":"stonehearth:refined:thread"
-      },
-      {
-         "item":"stonehearth:resources:wood:oak_log"
-      }
-  ]
+    "type": "recipe",
+    "work_units": 2,
+    "recipe_name": "Goblin Token Tear Down",
+    "description": "Use your tokens here.",
+    "flavor": "Now if only more Goblins spawned.",
+    "portrait": "/goblintokens/mixins/woodthread.png",
+    "ingredients": [
+        {
+            "uri": "stonehearth:monsters:goblins:skull_trophy",
+            "count": 2
+        }
+    ],
+    "produces": [
+        {
+            "item": "stonehearth:refined:thread",
+            "fine": "stonehearth:refined:cloth_bolt"
+        },
+        {
+            "item": "stonehearth:resources:wood:oak_log"
+        }
+    ]
 }
